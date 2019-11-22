@@ -18,6 +18,6 @@ module.exports = {
   plugins: ["react"],
   rules: {
     "react/jsx-filename-extension": [1, { extensions: [".js", ".jsx"] }],
-    "no-unused-vars": "warn", //warning-уведомления об неиспользуемых переменных
+    "no-unused-vars": "error", //warning-уведомления об неиспользуемых переменных
   },
 };
